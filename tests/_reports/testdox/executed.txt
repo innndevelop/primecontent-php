@@ -1,0 +1,173 @@
+Primecontent\Tests\Controllers\AccessTokenController
+ [x] List items success
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed name exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\AssetController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed file_url exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\AuthController
+ [x] Get entries without init client should return an exception
+ [x] Test login should return a valid JWT Token
+ [x] Invalid config should return an exception
+
+Primecontent\Tests\Controllers\CompoundFieldController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed fields exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\ConfigController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed key exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\ContentTypeController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed fields exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\EntryController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item versions
+ [x] Get single item versions not found
+ [x] Get single item by slug
+ [x] Get single item not found by slug
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed content type exception
+ [x] Update item success
+ [x] Restore item version item/version not found
+ [x] Restore item version success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\FormController
+ [x] Listing items
+ [x] Listing submit items
+ [x] Get single item
+ [x] Restore item version item/version not found
+ [x] Restore item version success
+ [x] Get single item versions
+ [x] Get single item versions not found
+ [x] Get single item not found exception
+ [x] Get single submit item
+ [x] Create item success
+ [x] Create item missed content type exception
+ [x] Create item submit success
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\FormTypeController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed fields exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\GroupController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed title exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\HookController
+ [x] Listing event items
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed content type exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\OrganizationController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed name exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\SpaceController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed name exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\TagController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed name exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+
+Primecontent\Tests\Controllers\UserController
+ [x] Listing items
+ [x] Get single item
+ [x] Get single item not found exception
+ [x] Create item success
+ [x] Create item missed username exception
+ [x] Update item success
+ [x] Update item not found exception
+ [x] Delete item success
+ [x] Delete item not found exception
+

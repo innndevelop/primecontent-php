@@ -1,0 +1,42 @@
+{
+    "name": "primecontent/php-sdk",
+    "description": "Primecontent PHP SDK.",
+    "type": "project",
+    "license": "proprietary",
+    "homepage": "https://primecontent.io",
+    "authors": [
+        {
+            "name": "Álex Martín Sanchiz",
+            "email": "alex.martin@innn.es",
+            "homepage": "https://innn.es",
+            "role": "Developer"
+        },
+        {
+            "name": "Juan Manuel Castillo Andrades",
+            "email": "juanmanuel.castillo@innn.es",
+            "homepage": "https://innn.es",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+		"php": ">=7.1",
+		"ext-json": "*",
+    "guzzlehttp/guzzle": "~6.0"
+    },
+	"require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "phpstan/phpstan": "^0.10.6",
+        "rpkamp/fancy-testdox-printer": "^0.2.5",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+	"autoload": {
+        "psr-4": {
+            "Primecontent\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Primecontent\\Tests\\": "tests/"
+        }
+    }
+}

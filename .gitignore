@@ -1,0 +1,9 @@
+vendor/
+composer.lock
+.DS_Store
+.idea
+tests/_reports/testdox/*
+
+###> phpunit/phpunit ###
+/phpunit.xml
+###< phpunit/phpunit ###
