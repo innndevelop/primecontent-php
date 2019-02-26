@@ -1,7 +1,7 @@
 {
     "name": "primecontent/php-sdk",
     "description": "Primecontent PHP SDK.",
-    "type": "project",
+    "type": "package",
     "license": "proprietary",
     "homepage": "https://primecontent.io",
     "authors": [
